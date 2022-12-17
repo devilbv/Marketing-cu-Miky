@@ -1,0 +1,1129 @@
+
+
+
+
+/* ******************************
+:: 1.0 COMMON CSS
+****************************** */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ptb_180 {
+        padding: 130px 0;
+    }
+
+    .ptb_150 {
+        padding: 100px 0;
+    }
+
+    .ptb_100 {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .res-margin {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ptb_180 {
+        padding: 130px 0;
+    }
+
+    .ptb_150,
+    .ptb_100 {
+        padding: 50px 0;
+    }
+
+    .res-margin {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .avatar-lg {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .ptb_180 {
+        padding: 80px 0;
+    }
+    .ptb_150 {
+        padding: 15px 0;
+        margin: 1em auto !important;
+    }
+
+   
+    #seo-optimise{
+        height: 100%;
+       margin: 0 auto;
+    }
+}
+
+/*SECTION HEADING*/
+@media (max-width: 991px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .section-heading {
+        margin-bottom: 50px;
+    }
+    .section-heading > h2 {
+        font-size: 1.55em;
+        margin: 0 auto;
+        text-align: center;
+        margin: 2em auto;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 2em;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    p {
+        line-height: 26px;
+    }
+    .help-seo {
+        width: 100%;
+        font-size: 1.55em;
+        text-align: center;
+    }
+    .seo-strategy {
+        margin: 2em auto !important;
+        padding: 0 !important;
+        text-align: center !important;
+        font-size: 1.75em !important
+        
+    }
+    .seo-strategy-h2 {
+        margin: 3em auto !important;
+    }
+    .seo-strategy-p {
+        text-align: center!important;
+        padding: .5em !important;
+        
+    }
+    .services-text-center {
+        font-size: 1.85em!important;
+        width: 100%;
+        
+    }
+    .the-team {
+        text-align: center !important;
+        padding: .5em;
+        margin: 1em auto;
+    }
+    .content-list b {
+        font-size: 1em;
+    }
+    .content-inner {
+        margin-top: 2em;
+    }
+    .seo-strategy-seo {
+        font-size: 1.85em !important;
+        
+    }
+    .form-group {
+        max-width: 95vw;
+        margin: 0 auto;
+        overflow-x: hidden !important;
+    }
+    .row-web-process {
+        left: 0;
+        text-align: center;
+        bottom: 33em;
+    }
+    .line-1 {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .intro-text {
+        width: 100%;
+        margin: 0 0 2em 0 ;
+        font-size: 1.5em !important;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .intro-text-right {
+        font-size: 1em;
+        font-weight: 500;
+        font-family: 'Poppins', 'Sans serif';
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: .2em;
+        text-align: center;
+    }
+    .about-p {
+        padding: .1em !important;
+        font-size: 1em !important;
+    }
+    .about-content h2 {
+        margin: 1em auto !important;
+        font-size: 1.55em;
+        padding: .5em;
+    }
+    
+}
+
+/*BUTTONS*/
+@media (max-width: 575px) {
+    .button-group a {
+        margin-top: 0;
+        margin-right: 5px;
+    }
+    #offer-btn {
+        margin: 4em auto ;
+    }
+}
+
+/* ******************************
+:: 2.0 HEADER AREA CSS
+****************************** */
+@media(max-width: 1199px) {
+    header .navbar-expand .navbar-nav.toggle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    header .navbar-expand .navbar-nav.items,
+    header .navbar-expand .navbar-nav.icons .social {
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    header .navbar-expand .navbar-nav.action .btn {
+        padding: 5px 10px;
+        font-size: 0;
+    }
+
+    header .navbar-expand .navbar-nav.action .btn .contact-icon {
+        font-size: initial;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        margin: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 95vw;
+        
+    } 
+    .modal-body {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+    }
+
+    .search-title {
+        font-size: 2.5em;
+        margin: 2em auto;
+    }
+    .welcome-thumb-wrapper {  
+        display: grid;
+        align-self: center;   
+        justify-content: center;
+        width: 96vw;  
+        margin: 2em auto !important;
+    }
+    .welcome-thumb-1 {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto !important;
+        padding: 0;
+    }
+    .navbar-brand img {
+        max-width: 65px;
+    }
+}
+
+/* ******************************
+:: 3.0 WELCOME AREA CSS
+****************************** */
+
+
+@media (max-width: 991px) {
+    .welcome-area,
+    .inner .welcome-area {
+        height: 700px !important;
+    }
+
+    .welcome-thumb-2 {
+        left: -22%;
+    }
+
+    .welcome-thumb-3 {
+        left: 25%;
+    }
+
+    .welcome-thumb-4 {
+        right: -16%;
+    }
+
+    .welcome-thumb-5 {
+        top: -25%;
+        left: 2%;
+    }
+
+    .welcome-thumb-6 {
+        width: 40%;
+        top: -6%;
+    }
+    .breadcrumb-area1 {
+        max-height: 35vh;
+        background: rgba(29, 29, 29, 0.5) url("../img/bg/seo-img-mobile.jpg") no-repeat fixed center center / cover;
+        background-attachment: fixed;
+    }
+    .breadcrumb-area2,
+    .breadcrumb-area3,
+    .breadcrumb-area4,
+    .breadcrumb-area5
+     {
+       max-height: 35vh;        
+        background-attachment: fixed;
+    }
+    .breadcrumb-area-blog {
+        min-height: 35vh;           
+        background-attachment: fixed;
+        background-position: center;
+     }
+    .breadcrumb-area6 {
+        height: 60vh;
+    }
+    .box {       
+        position: relative;
+        width: 150px;
+        height: 150px;
+       
+    }
+    .inline-photo-line {
+        display: none;
+    }
+}
+
+@media (max-width:769px) {
+    .welcome-area {
+        height: 100% !important;
+        padding-top: 90px;
+    }
+
+    .welcome-intro {
+        margin: 0 auto;
+
+    }
+
+    .welcome-intro h1 {
+        font-size: 3em;
+        width: 100%;
+        
+    }
+    .welcome-intro p {
+        text-align: left !important;
+        padding: 1em ;
+        width: 100%;
+    }
+
+    .welcome-thumb-2 {
+        left: 15%;
+    }
+
+    .welcome-thumb-3 {
+        left: 48%;
+    }
+
+    .welcome-thumb-4 {
+        right: 0;
+    }
+
+    .welcome-thumb-5 {
+        top: -10%;
+        left: 25%;
+    }
+
+    .welcome-thumb-6 {
+        top: -8%;
+    }
+
+       
+}
+
+@media (min-width:576px) and (max-width:870px) {
+    .welcome-intro {
+        margin: 2em 0 0 2em;
+
+    }
+    .welcome-intro h1 {
+        font-size: 3em;
+        
+    }
+    .welcome-intro p {
+        
+        padding: 0 ;
+        text-align: left;
+    }
+}
+
+@media (max-width: 575px) {
+    .welcome-intro {
+        margin: 1.5em auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .welcome-intro h1 {
+        font-size: 2.75em;
+        margin:  0 auto !important;
+        text-align: center !important;
+        padding-top: 1em;
+        width: 90%;
+    }
+    .welcome-intro p {
+        font-size: 1.1em !important;
+        margin: 0 auto !important;
+        padding: .2em ;
+        text-align: center !important;
+        width: 87%;
+    }
+    .button-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .welcome-thumb-2 {
+        left: -4%;
+        width: 50%;
+    }
+
+    .welcome-thumb-3 {
+        left: 38%;
+    }
+
+    .welcome-thumb-4 {
+        right: -13%;
+    }
+
+    .welcome-thumb-5 {
+        left: 2%;
+    }
+
+    .welcome-thumb-6 {
+        top: -6%;
+    }
+    #mobile-animation {   
+        
+        justify-content: center;
+        align-self: center;    
+        margin: 0 auto;   
+        padding: 0;                 
+        width: 80%;
+    }
+    .breadcrumb-area1 {
+        max-height: 30vh !important;
+        background: rgba(29, 29, 29, 0.5) url("../img/bg/seo-img-mobile.jpg") no-repeat fixed center center / cover;
+        background-attachment: fixed;
+    }
+    .breadcrumb-area,
+    .breadcrumb-area2,
+    .breadcrumb-area3,
+    .breadcrumb-area4,
+    .breadcrumb-area5,
+    .breadcrumb-area6 {
+       max-height: 33vh !important;        
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    
+}
+
+/* ******************************
+:: 4.0 PROMO AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .single-promo h3 {
+        font-size: 2em;
+    }
+    .seo-advantage {
+        width: 100%;
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+   
+    
+   
+    
+}
+
+@media (max-width: 768px) {
+    .single-promo h3 {
+        font-size: 1.75em;
+    }
+    .single-promo  {
+        margin: 0 auto;
+        width: 100% !important;
+        
+    }
+   
+}
+
+/* ******************************
+:: 5.0 CONTENT AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .profile-circle-wrapper {
+        overflow: hidden;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    }
+}
+
+/* ******************************
+:: 6.0 SERVICE AREA CSS
+****************************** */
+@media (max-width: 575px) {
+    .service-area .col-12:last-of-type .single-service.service-gallery {
+        margin-bottom: 0;
+    }
+    .service-thumb-img {
+        margin: 1em auto;
+        height: auto;
+    }
+    .single-service  {
+        text-align: center !important;
+    }
+    .team-photo {
+        margin: 0 auto ;
+        width: 225px;
+    }
+    
+    .single-team  {
+        text-align: center;
+    }
+    .seo-advantage {
+        width: 100%;
+       flex-direction: column;
+        margin: 3em auto;
+    }
+    .optimise-seo, .optimise-SEO {
+        border: none;
+        margin: 0 auto;
+    }
+    .optimise-seo h2 {
+       
+        font-size: 1.75em;
+        margin: 1em auto;        
+        text-align: center;
+    }
+    .optimise-seo p {
+        padding: 0;
+        margin-bottom: 4em;
+    }
+    .btn.btn-bordered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .optimise-SEO {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .optimise-SEO h3 {
+        margin: 3em auto !important;
+        font-size: 1.35em;
+        text-align: center;
+        padding: 1em;
+    }
+    .optimise-SEO ul {
+        margin: 0 auto;
+        padding: .7em;
+    }
+    .color-7 {
+        font-size: 1em;
+        margin-left: .5em;
+        
+    }
+    .copywrite-h2 {
+        font-size: 2em;
+        margin-top: 1em;
+    }
+    .copywrite {
+        margin: 1em 0 0 0;
+    }
+    .copy-splited-text {
+        flex-direction: column;
+    }
+    .copywrite-p {
+        width: 100%;
+        padding: .1em;
+        font-size: 1em !important;
+        line-height: 1.65;
+        text-align: left !important;
+    }
+    .copywrite-p-1 {
+        width: 100%;
+        padding: .1em;
+        font-size: 1em !important;
+        text-align: right !important;
+        margin-top: 2em;
+        line-height: normal;
+    }
+    .copywrite-adv {
+        text-align: center;
+    }
+    hr {
+        display: none;
+    }
+    
+    .web-dev-h3 {
+        text-align: center;
+        margin-bottom: -10em;
+        padding: 1em;
+    }
+    .web-process {   
+        position: static;     
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;        
+        max-height: 130vh;
+    }
+    .web-process-title {        
+        position: relative;
+        width: 100%;
+        max-height: 20%;
+        margin: 2em auto;
+        bottom: 16em;
+    }
+    .web-process-title-1 {    
+        position: absolute;
+        top: 7em;
+        width: 100%;
+        max-height: 10vh;
+        margin: 1em auto;
+    }
+    .web-process-title-1 h2 {     
+        
+        width: 100%;        
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+    }
+    .web-process-title h3 {
+        position: static;        
+        font-size: 1em;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.5em;
+        padding: 1em;
+    }
+    .web-process-text {
+        margin: 1em auto;
+        font-size: 2em;
+    }
+    #google-ads-guy {
+        margin: 1em auto;
+    }
+    .single-promo p {
+        padding: 0;
+        
+    }
+    .single-case-studies > a > img {
+        height: 300px;
+        width: 425px;
+    }
+    #review {
+        max-height: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+   
+}
+
+/* ******************************
+:: 7.0 PRICE PLAN AREA CSS
+****************************** */
+@media(max-width: 991px) {
+    .plan-price span:not(.h1) {
+        font-size: 30px;
+    }
+
+    .plan-price sub {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .plan-price span:not(.h1) {
+        font-size: 26px;
+    }
+    .google-imgs {
+        
+        margin: 3em auto;
+        grid-template-columns: auto minmax(160px, 1fr);
+        gap: 3em;
+    }
+    .google-imgs>img {
+       width: 160px ;
+       height: 70px;
+       margin: 0 auto;
+       padding: 0;
+       align-items: center;
+       justify-content: center;
+    }
+    .fb-blueprint {
+        width: 70px !important;
+        height: auto;
+    }
+    .single-case-studies .a img {
+        height: 150px !important;
+    }
+    .web-dev-intro {
+        height: 100%;
+        flex-direction: column;
+        margin: 4em auto;
+    }
+    }
+
+
+
+/* ******************************
+:: 8.0 FAQ AREA CSS
+****************************** */
+@media (max-width: 575px) {
+    .card-header .btn {
+        line-height: 1.4;
+    }
+}
+
+/* ******************************
+:: 9.0 REVIEWS AREA CSS
+****************************** */
+@media (max-width: 575px) {
+    .single-review {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .owl-item.active.center .single-review {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/* ******************************
+:: 10.0 TEAM AREA CSS
+****************************** */
+@media (max-width: 575px) {
+    .team-area .col-12:last-of-type .single-team {
+        margin-bottom: 0;
+    }
+    #fix-div-img {
+        padding: 0 !important;
+        margin: 0 auto !important;
+        width: 100%;
+    }
+}
+
+/* ******************************
+:: 11.0 BREADCRUMB AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .breadcrumb-content > h2 {
+        font-size: 54px;
+        
+    }
+    .line-1 {
+        width: 95vw;
+        height: 100%;
+    }
+    .optimise-seo {
+        width: 800px;
+    }
+    .intro-text {
+        font-size: 2em;
+        width: 100%;
+    }
+    .intro-text-right {
+        margin: 0 auto;
+        padding: 0;
+        
+    }
+}
+
+@media (max-width: 575px) {
+    .breadcrumb-content > h2 {
+        font-size: 2.5em;
+        padding-top: 2em;
+    }
+    
+    .navbar {
+        height: 10vh;
+    }
+    .web-dev {
+        flex-direction: column;
+        padding: 0;
+    }
+    .web-text {
+        font-size: 2em;        
+        max-width: 100%;        
+        margin: 1em auto;
+        text-align: center;
+    }
+    .web-text-1 {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        line-height: normal;
+        font-size: 1em;
+        text-align: center;
+    }
+    .header-img {        
+        padding: 1em ;
+        border-radius: 40px;
+    }
+    .header-title {
+        margin-top: 2em;
+        padding: 1em;
+        font-size: 1.35em ;
+    }
+    .back-home {        
+        top: -3rem;
+        left: 0;
+        font-size: .85em;
+    }
+    .cookie-container {
+        width: 100%;
+        height: 22vh;       
+        
+      }
+      .cookie-container.active {    
+        bottom: 0px;
+        z-index: 100;
+        display: flex row;        
+        align-items: center;
+        justify-content: center;
+      }
+      .cookie-container p{
+        font-size: 10px !important;
+        margin: 2em auto;
+        padding: .5em;
+      }
+      .cookie-btn {
+        width: 70px;
+        height: 30px;
+      }
+}
+
+/* **********************************
+:: 12.0 BLOG PAGE DETAILS AREA CSS
+*************************************/
+@media (max-width: 991px) {
+
+    .comments,
+    .blog-contact {
+        margin-left: 0;
+        margin-right: 200px;
+    }
+    .header-content {
+        margin: 1em auto;
+    }
+    .back-home {
+        margin: 3em 7em 0 0em;
+        padding: 1em;
+    }
+         
+    
+    
+}
+
+@media (max-width: 767px) {
+
+    .comments,
+    .blog-contact {
+        margin-right: 0;
+    }
+}
+@media (max-width: 567px) {
+    .social-section-blog
+    {	        
+        width: 100%;
+        height: 20vh;
+        background: white;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .social-ul-blog li a{
+        width: 55px;
+        height: 55px;
+
+    }
+
+
+
+}
+/* ******************************
+:: 13.0 CONTACT AREA CSS
+****************************** */
+@media (max-width: 575px) {
+    .contact-info {
+        text-align: center !important;
+    }
+    .contact-info h3 {
+        font-size: 1em;
+        width: 100%;        
+        text-align: center;
+    }
+    .aboutUs-h2 {
+        font-size: 2em !important;
+       
+    }
+    #contact {
+        margin: 1em auto;
+    }
+    #portfolio {
+        min-height: 100%;
+        max-height: max-content;
+        margin: 1em auto;
+    }
+    .map-area {
+        height: 450px;
+    }
+    .text-white {
+        text-align: center;
+    }
+    .portfolio-area {
+        margin: 0 auto;
+    }
+    .portfolio-area .items {
+        height: 135vh;
+        max-height: 155vh !important;
+    }
+    .search-title-p {
+        text-align: left !important;
+    }
+    .social-section {
+        
+        padding-top: 3em;
+        height: 51vh;
+        z-index: 11;
+           
+    }
+    .social-ul  {
+        position: relative;
+        top: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .social-ul li a {
+        width: 60px;
+        height: 60px;
+    }
+    #work-with-us {
+        padding-top: 4em;
+        font-size: 2.25em;
+    }
+    .post-content {
+        margin: 0 auto;
+    }
+    .post-content h4 {
+        margin: 0 auto;
+        padding: 1em;
+    }
+    .sub-heading-p {
+        font-size: .7em;
+        width: 90%;
+        text-align: left;
+    }
+    .blog-ul li {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+/* ******************************
+:: 14.0 FOOTER AREA CSS
+****************************** */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .footer-items {
+        margin-bottom: 30px;
+    }
+    .web-dev-intro {
+        height: 10vh;
+        margin-top: 5em;
+        
+    }
+    .web-dev-h3 {
+        width: 70%;
+        padding: 2em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .web-process {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 110vh;
+    }
+    .web-process-title {
+        position: relative;
+        top: -20em;
+        width: 100vw;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    .web-process-title h2 {
+        margin: 0 auto;
+        font-size: 3em;
+        
+    }
+    .help-seo {
+        font-size: 2em;
+    }
+    .service-thumb-img {
+        margin: 0 auto;
+    }
+    .portfolio-area {
+        margin: 0 auto;
+    }
+    .header-title {
+        padding: 1em;
+        font-size: 2em;
+    }
+    .header-img {
+        margin-top: 4em;
+        padding: 5em;
+    }
+    .sub-heading-p {
+        padding: 2em;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-items {
+        margin-bottom: 30px;
+    }
+
+    .footer-area .col-12:last-of-type .footer-items {
+        margin-bottom: 0;
+    }
+    
+}
+
+/* ******************************
+:: 15.0 ERROR AREA CSS
+****************************** */
+@media only screen and (max-width: 991px) {
+    .error-content {
+        padding-top: 45%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .error-content {
+        padding-top: 50%;
+    }
+
+    .thumb-2 {
+        top: 12%;
+        left: 8%;
+    }
+
+    .thumb-3 {
+        top: 5%;
+        left: 30%;
+    }
+
+    .astronaut {
+        top: 70%;
+    }
+    
+}
+
+/* ******************************
+:: 15.1 Terms & Conditions CSS
+****************************** */
+
+@media only screen and (max-width: 575px) {
+    .terms-conditions {
+        width: 90vw;
+        height: 100%;
+        display: block;
+        margin: 10em auto;
+    }
+    .terms-conditions h1 {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 1em;
+        margin-top: -3em;
+    }
+    .terms-conditions h2 {
+        font-size: 1.5em;
+        margin: 1em auto;
+        text-align: center;
+    }
+    .terms-conditions p {
+        padding: 8px;
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .cookies {
+        width: 90vw;
+        height: 100%;
+        display: block;
+        margin: 10em auto;
+    }
+    .cookies h2 {
+        font-size: 1.5em;
+        margin: 1em auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,17 @@
+Fonts used in this design:
+
+Font: Archistico
+Author: Archistico
+Url: http://www.fontsquirrel.com/fonts/archistico
+
+Font: ChunkFive
+Author: The League of Moveable Type
+Url: http://www.fontsquirrel.com/fonts/chunkfive
+
+Font: Exo
+Author: Natanael Gama
+Url: http://www.fontsquirrel.com/fonts/exo
+
+Font: FFF Tusj
+Author: Magnus Cederholm
+Url: http://www.fontsquirrel.com/fonts/fff-tusj
