@@ -1,0 +1,4 @@
+user-agent: *
+Disallow: /404.html
+Disallow: /assets/css/
+Disallow: /assets/js/
